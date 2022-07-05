@@ -1,3 +1,9 @@
+body{
+    width: auto 0;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
 /*header start*/
 #header{
     display: flex;
@@ -5,5 +11,25 @@
     justify-content: space-between;
     padding: 20px 80px;
     background-color: bisque;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06)
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 580;
+    font-family: "Rockwell";
+    color: brown;
+}#navbar li a:hover{
+    color: green;
 }
