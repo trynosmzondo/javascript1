@@ -3,6 +3,9 @@ body{
     margin: 0;
     background-color: whitesmoke;
 }
+img{
+    border-radius: 100px;
+}
 
 /*header start*/
 #header{
@@ -10,7 +13,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background-color: bisque;
+    background-color: rgb(216, 222, 216);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06)
 }
 #navbar{
@@ -22,14 +25,37 @@ body{
 #navbar li{
     list-style: none;
     padding: 0 20px;
+    position: relative;
     
 }
 #navbar li a{
     text-decoration: none;
     font-size: 17px;
-    font-weight: 580;
+    font-weight: 100;
     font-family: "Rockwell";
-    color: brown;
-}#navbar li a:hover{
+    color: rgb(236, 48, 48);
+    transition: 0.3 ease;
+}
+#navbar li a:hover, #navbar li a.active{
     color: green;
+}
+
+#navbar li a.active::after, #navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: rgb(236, 48, 48);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#navbar li i{
+    color: green;
+    transition: 0.3s ease;
+    width: 30px;
+    
+}
+#navbar li i:hover{
+    color: rgb(236, 48, 48);
 }
