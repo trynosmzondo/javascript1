@@ -13,9 +13,13 @@ img{
     align-items: center;
     justify-content: space-between;
     padding: 20px 80px;
-    background-color: rgb(216, 222, 216);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-    height: 4vh;
+    background-color: darkgray;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.06);
+    height: 2vh;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 
 }
 #navbar{
@@ -23,7 +27,9 @@ img{
     justify-content: center;
     align-items: center;
     
+    
 }
+
 #navbar li{
     list-style: none;
     padding: 0 20px;
@@ -101,12 +107,13 @@ img{
     width: 15%;
     background-color: rgb(228, 174, 174);
     color: darkgoldenrod;
-    font-family: sans-serif
-    font-size: medium;
+    font-family: sans-serif;
+    font-size: 700;
     font-weight: bold;
     cursor: pointer;
 }
 
 #bone button:hover{
     background-color: whitesmoke;
+    transition: 0.25s ease-in-out;
 }
