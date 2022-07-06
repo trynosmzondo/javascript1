@@ -116,4 +116,5 @@ img{
 #bone button:hover{
     background-color: whitesmoke;
     transition: 0.25s ease-in-out;
+    color: green;
 }
