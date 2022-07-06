@@ -46,7 +46,7 @@ img{
     content: "";
     width: 30%;
     height: 2px;
-    background: rgb(236, 48, 48);
+    background: green;
     position: absolute;
     bottom: -4px;
     left: 20px;
