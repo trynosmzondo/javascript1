@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     
     margin: 0 auto;
@@ -15,7 +21,7 @@ img{
     padding: 20px 80px;
     background-color: darkgray;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.06);
-    height: 2vh;
+    height: 8vh;
     z-index: 999;
     position: sticky;
     top: 0;
@@ -75,7 +81,7 @@ img{
     height: 100vh;
     width: 100%;
     background-size: cover;
-    background-position: bottom 15% left 40%;
+    background-position: bottom 15% left 5%;
     padding: 0 80px;
     display: flex;
     justify-content: center;
@@ -95,9 +101,18 @@ img{
     color: brown;
     font-weight: bolder;
     font-size: xx-large;
+    padding: 2px 2px;
     background-color: rgb(15, 15, 89);
     border-radius: 15% 0 20% 0;
     height: 7vh;
+}
+
+#bone h2{
+    padding: 15px 2px;
+}
+
+p{
+    padding: 10px 2px;
 }
 
 #bone button{
@@ -105,16 +120,22 @@ img{
     height: 6vh;
     border-radius: 10px 5px 10px 5px;
     width: 15%;
+    padding: 2px 2px;
     background-color: rgb(228, 174, 174);
     color: darkgoldenrod;
     font-family: sans-serif;
     font-size: 700;
     font-weight: bold;
     cursor: pointer;
+    
 }
 
 #bone button:hover{
     background-color: whitesmoke;
     transition: 0.25s ease-in-out;
     color: green;
+}
+
+.section-p1{
+    padding: 40px 80px;
 }
