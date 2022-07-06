@@ -72,10 +72,10 @@ img{
     background-position: bottom 15% left 40%;
     padding: 0 80px;
     display: flex;
-    text-align: center;
+    justify-content: center;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    
 }
 
 #bone h4{
@@ -92,5 +92,21 @@ img{
     background-color: rgb(15, 15, 89);
     border-radius: 15% 0 20% 0;
     height: 7vh;
-    
+}
+
+#bone button{
+    border: none;
+    height: 6vh;
+    border-radius: 10px 5px 10px 5px;
+    width: 15%;
+    background-color: rgb(228, 174, 174);
+    color: darkgoldenrod;
+    font-family: sans-serif
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#bone button:hover{
+    background-color: whitesmoke;
 }
