@@ -14,7 +14,9 @@ img{
     justify-content: space-between;
     padding: 20px 80px;
     background-color: rgb(216, 222, 216);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06)
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    height: 4vh;
+
 }
 #navbar{
     display: flex;
@@ -33,7 +35,7 @@ img{
     font-size: 17px;
     font-weight: 100;
     font-family: "Rockwell";
-    color: rgb(236, 48, 48);
+    color: rgb(16, 15, 15);
     transition: 0.3 ease;
 }
 #navbar li a:hover, #navbar li a.active{
