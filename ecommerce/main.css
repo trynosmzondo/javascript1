@@ -20,7 +20,7 @@ img{
     justify-content: space-between;
     padding: 20px 80px;
     background-color: darkgray;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.02);
     height: 8vh;
     z-index: 999;
     position: sticky;
@@ -28,12 +28,12 @@ img{
     left: 0;
 
 }
+
+
 #navbar{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 #navbar li{
@@ -138,4 +138,45 @@ p{
 
 .section-p1{
     padding: 40px 80px;
+}
+#product1{
+    text-align: center;
+    
+}
+#product1 .prod{
+    width: 25%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid white;
+    border-radius: 20px 35px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.3 ease;
+}
+
+#product1 .prod:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
+}
+#product1 .prod img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product1 .prod .pro-desc{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .prod .pro-desc span{
+    color: rgb(102, 36, 36);
+    font-size: 15px;
+}
+#product1 .prod .pro-desc h5{
+    padding-top: 7px;
+    color: rgb(202, 146, 61);
+    font-size: 20px;
+}
+
+#product1 h1{
+    font-weight: bolder;
 }
