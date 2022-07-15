@@ -13,6 +13,10 @@ img{
     border-radius: 100px;
 }
 
+#product1 .prod{
+    height: ;
+}
+
 /*header start*/
 #header{
     display: flex;
@@ -153,6 +157,7 @@ p{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     margin: 15px 0;
     transition: 0.3 ease;
+    position: relative;
 }
 
 #product1 .prod:hover{
@@ -180,3 +185,39 @@ p{
 #product1 h1{
     font-weight: bolder;
 }
+#product1 .prod i{
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+    
+}
+
+#product1 .prod h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: forestgreen;
+}
+
+#product1 .prod .bonzo{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: rgb(244, 202, 119);
+    font-weight: 550;
+    color: green;
+    border: 1px solid rgb(244, 202, 119);
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+#product1 .prod-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    flex-wrap: wrap;
+}
+
+
+
